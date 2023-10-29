@@ -1,8 +1,8 @@
-import { ButtonContainer, ButtonVariant } from "./Button.styles"
+import { ButtonContainer, ButtonVariant } from './Button.styles'
 
 type ButtonProps = {
   variant?: ButtonVariant
 }
-export function Button({variant="primary"}: ButtonProps) {
+export function Button({ variant = 'primary' }: ButtonProps) {
   return <ButtonContainer variant={variant}>{variant}</ButtonContainer>
 }
