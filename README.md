@@ -2,7 +2,7 @@
 
 ## Insights
 
-- Libs: immer, date-fns
-- Reducer: use it when need to use complex calculations that will be used in other places
-- Don't rely too much on external libs, so contexts should be made in such a way that they can work without using libs
-- Local storage: it just save strings, booleans or numbers, so if you need to save a date, remember to modify it.
+- Libs: immer (immutability), date-fns, react-hook-form, zod, phosphor-react;
+- Reducer: employ it for intricate calculations that will be utilized in various contexts;
+- Avoid excessive dependence on external libraries; therefore, design contexts to function independently, without the need for external libraries;
+- Local storage: It exclusively stores strings, booleans, or numbers, so be sure to make necessary adjustments if you intend to store dates.
